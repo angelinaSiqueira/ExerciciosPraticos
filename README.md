@@ -46,6 +46,7 @@ b. Deve haver um método para adicionar créditos, que incrementa a quantidade d
 c. Deve haver um método para calcular e retornar o login do aluno, que é formado pelos três primeiros caracteres do nome do aluno + os três últimos dígitos da matrícula.
 
 Exemplo: Nome: Angelina; Matrícula: 556644; Login = Ang644.
+dica ( no Java o tipo String tem um metodo substring() que pode ser chamado a partir da string, funciona como se cada letra fosse uma posição de um vetor, assim ao chamar o metodo substring(0,3) vai retorna a primeira posição e até a segunda, excluindo a ultima. 
 
 d. Deve haver um método para retornar uma String com a representação textual do aluno. Formato: Nome: ___, Matrícula: ___, Login: ___, Créditos: ___.
 
