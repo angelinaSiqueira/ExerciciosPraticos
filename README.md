@@ -9,7 +9,7 @@ Crie um novo projeto e desenvolva a classe Pessoa, conforme diagrama de classes 
 
 Instancie os dois objetos mostrados no diagrama de objetos abaixo.
 
-![Diagrama UML - Objetos](assets/pessoa_diagrama_objetos.png)
+![Diagrama UML - Objetos](assets/objetos_diagrama_pessoa.png)
 
 Porque a classe Pessoa não define um método setAnoNascimento?
 
