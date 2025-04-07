@@ -1,5 +1,4 @@
 
-
 public class Pessoa {
     private int anoNascimento;
     private String nome;
@@ -39,7 +38,12 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    public void casar(Pessoa outraPessoa) {
+    public void casar(Pessoa outraPessoa){
+        /*
+        com erro se nao passar as validacoes abaixo
+        apenas setar o conjuge com o objeto recebido por parametro
+        this.conjuge = outraPessoa;
+         */
         if(!outraPessoa.ehCasado()) {
             this.conjuge = outraPessoa;
             outraPessoa.conjuge = this;
